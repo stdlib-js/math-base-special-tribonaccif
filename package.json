@@ -41,8 +41,8 @@
   },
   "dependencies": {
     "@stdlib/constants-float32-max-safe-nth-tribonacci": "github:stdlib-js/constants-float32-max-safe-nth-tribonacci#main",
-    "@stdlib/math-base-assert-is-integerf": "github:stdlib-js/math-base-assert-is-integerf#main",
     "@stdlib/math-base-assert-is-nanf": "^0.2.2",
+    "@stdlib/math-base-assert-is-nonnegative-integerf": "github:stdlib-js/math-base-assert-is-nonnegative-integerf#main",
     "@stdlib/math-base-napi-unary": "^0.2.3",
     "@stdlib/utils-library-manifest": "^0.2.2"
   },

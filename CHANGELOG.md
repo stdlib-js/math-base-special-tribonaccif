@@ -4,7 +4,7 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2025-06-05)
+## Unreleased (2025-09-07)
 
 <section class="features">
 
@@ -16,12 +16,25 @@
 
 <!-- /.features -->
 
+<section class="breaking-changes">
+
+### BREAKING CHANGES
+
+-   [`dc3487c`](https://github.com/stdlib-js/stdlib/commit/dc3487cf4d8063b22fc6311ac4492579c815911e): update signature to accept floats
+
+    -   User code should behave similarly in the primary case of providing integer-valued input values. However, no longer will real-values truncate. Now, real-valued inputs will result in `NaN`, which is, arguably, better behavior, as real-to-integer truncation can be a source of silent bugs.
+
+</section>
+
+<!-- /.breaking-changes -->
+
 <section class="commits">
 
 ### Commits
 
 <details>
 
+-   [`dc3487c`](https://github.com/stdlib-js/stdlib/commit/dc3487cf4d8063b22fc6311ac4492579c815911e) - **refactor:** modify C implementation to accept `float` instead of `int32` in `math/base/special/tribonaccif` [(#8032)](https://github.com/stdlib-js/stdlib/pull/8032) _(by Gunj Joshi, Athan Reines)_
 -   [`6724610`](https://github.com/stdlib-js/stdlib/commit/672461019c6893cfddc9227d407ebab4e04f4c40) - **feat:** add `math/base/special/tribonaccif` [(#6066)](https://github.com/stdlib-js/stdlib/pull/6066) _(by Neeraj Pathak, Athan Reines, stdlib-bot, Karan Anand)_
 
 </details>
@@ -34,9 +47,10 @@
 
 ### Contributors
 
-A total of 3 people contributed to this release. Thank you to the following contributors:
+A total of 4 people contributed to this release. Thank you to the following contributors:
 
 -   Athan Reines
+-   Gunj Joshi
 -   Karan Anand
 -   Neeraj Pathak
 
