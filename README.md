@@ -70,7 +70,7 @@ with seed values `F_0 = 0`, `F_1 = 0`, and `F_2 = 1`.
 ## Usage
 
 ```javascript
-import tribonaccif from 'https://cdn.jsdelivr.net/gh/stdlib-js/math-base-special-tribonaccif@deno/mod.js';
+import tribonaccif from 'https://cdn.jsdelivr.net/gh/stdlib-js/math-base-special-tribonaccif@v0.1.0-deno/mod.js';
 ```
 
 #### tribonaccif( n )
@@ -137,7 +137,7 @@ var v = tribonaccif( NaN );
 ```javascript
 import logEachMap from 'https://cdn.jsdelivr.net/gh/stdlib-js/console-log-each-map@deno/mod.js';
 import linspace from 'https://cdn.jsdelivr.net/gh/stdlib-js/array-base-linspace@deno/mod.js';
-import tribonaccif from 'https://cdn.jsdelivr.net/gh/stdlib-js/math-base-special-tribonaccif@deno/mod.js';
+import tribonaccif from 'https://cdn.jsdelivr.net/gh/stdlib-js/math-base-special-tribonaccif@v0.1.0-deno/mod.js';
 
 var v = linspace( 0, 30, 31 );
 
